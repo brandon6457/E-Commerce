@@ -5,7 +5,7 @@ const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
 Product.belongsTo(Category, {
-   through: {
+   through: {////////?????????
      model: Product,
      unique: false
    },
